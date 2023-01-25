@@ -6,19 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="
-    sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="
-    anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
-    <title>Ronald - Webflow Resume Website Clone</title>
+    <title>Ronald - Webflow Template Clone</title>
 </head>
 <body>
-    <!------------ Nav Section ----------->
-    <section class="fixed" id="fixed">
+    <section class="fixed">
         <div class="side_nav">
-            <a href="index.html">
-                <img src="./assets/logo.svg" alt="Ronald logo">
+            <a href="index.html" class="logo">
+                <img src="./assets/logo.svg" alt="Ronald Logo" />
             </a>
             <ul class="menu">
                 <li class="menu_item">
@@ -56,310 +53,304 @@
             </div>
         </div>
     </section>
-    <!------------ Hero Section ----------->
-    <section class="scroll" id="scroll">
-        <main class="scroll">
-            <section class="row hero" id="home">
-                <div class="col-6">
-                    <h1>I'm Ronald boyd.</h1>
-                    <p>Award-winning design lead.</p>
-                    <a href="index.html" class="btn">Get in touch</a>
+    <main class="scroll">
+        <section class="row hero" id="home">
+            <div class="col-6">
+                <h1>I'm <br/>Ronald <br/>boyd.</h1>
+                <p>Award-winning design lead.</p>
+                <a href="index.html" class="btn">Get in touch</a>
+            </div>
+            <div class="col-6">
+                <div class="hero_img_container">
+                    <img src="./assets/others-img/hero-image.svg" alt="Ronald boyd" />
+                    <div class="exp">
+                        <span class="exp_years">5+<br>years<br> experience</span>
+                    </div>
                 </div>
+            </div>
+        </section>
+        <section class="portfolio" id="work">
+            <h2 class="section_title">Our work.</h2>
+            <div class="grid">
+                <div class="grid_item">
+                    <div class="portfolio_img">
+                        <a href="#" class="portoflio_link">
+                            <img src="./assets/work-img/work3.jpg" alt="Wall painting multicolor"/>
+                        </a>
+                        
+                    </div>
+                    <div class="content">
+                        <h3 class="portfolio_title"><a href="#" class="portoflio_link">Wall painting multicolor</a></h3>
+                        <a href="#" class="portoflio_link">View work</a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="portfolio_img">
+                        <img src="./assets/work-img/work4.jpg" alt="Forest canvas wall painting"/>
+                    </div>
+                    <div class="content">
+                        <h3 class="portfolio_title">Forest canvas wall painting</h3>
+                        <a href="#" class="portoflio_link">View work</a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="portfolio_img">
+                        <img src="./assets/work-img/work2.jpg" alt="Engineered wood floral painting"/>
+                    </div>
+                    <div class="content">
+                        <h3 class="portfolio_title">Engineered wood floral painting</h3>
+                        <a href="#" class="portoflio_link">View work</a>
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="portfolio_img">
+                        <img src="./assets/work-img/work1.jpg" alt="Art montsera leaves canvas"/>
+                    </div>
+                    <div class="content">
+                        <h3 class="portfolio_title">Art montsera leaves canvas</h3>
+                        <a href="#" class="portoflio_link">View work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="profile" id="profile">
+            <h2 class="section_title">Profile.</h2>
+            <div class="row">
                 <div class="col-6">
                     <div class="img_container">
-                        <img src="./assets/others-img/hero-image.svg" alt="Ronald boyd">
-                        <div class="exp">
-                            <span class="exp_years">5+ years experience</span>
-                        </div>
+                        <img src="./assets/others-img/about.svg" alt="Ronald boyd" />
                     </div>
                 </div>
-            </section>
-    </section>
-    <!------------- Work Section ----------->
-    <section class="portfolio" id="work">
-        <h2 class="section_title">Our work.</h2>
-        <div class="grid">
-            <div class="grid_item">
-                <div class="portfolio_img">
-                    <a href="#" class="portfolio_link">
-                        <img src="./assets/work-img/work3.jpg" alt="Wall painting multicolor">
-                    </a>
-                </div>
-                <div class="content">
-                    <h3 class="portfolio_title"><a href="#" class="portfolio_link">Wall painting multicolor</a></h3>
-                    <a href="#" class="portfolio_link">View work</a>
-                </div>
-            </div>
-            <div class="grid_item">
-                <div class="portfolio_img">
-                    <a href="#" class="portfolio_link">
-                        <img src="./assets/work-img/work4.jpg" alt="Forest canvas wall painting">
-                    </a>
-                </div>
-                <div class="content">
-                    <h3 class="portfolio_title"><a href="#" class="portfolio_link">Forest canvas wall painting</a></h3>
-                    <a href="#" class="portfolio_link">View work</a>
-                </div>
-            </div>
-            <div class="grid_item">
-                <div class="portfolio_img">
-                    <a href="#" class="portfolio_link">
-                        <img src="./assets/work-img/work2.jpg" alt="Engineered wood floral painting">
-                    </a>
-                </div>
-                <div class="content">
-                    <h3 class="portfolio_title"><a href="#" class="portfolio_link">
-                        Engineered wood floral painting</a></h3>
-                    <a href="#" class="portfolio_link">View work</a>
-                </div>
-            </div>
-            <div class="grid_item">
-                <div class="portfolio_img">
-                    <a href="#" class="portfolio_link">
-                        <img src="./assets/work-img/work1.jpg" alt="Art monstera leaves canvas">
-                    </a>
-                </div>
-                <div class="content">
-                    <h3 class="portfolio_title"><a href="#" class="portfolio_link">
-                        Art monstera leaves canvas</a></h3>
-                    <a href="#" class="portfolio_link">View work</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!------------ Profile Section -------->
-    <section class="profile" id="profile">
-        <h2 class="section_title">Profile</h2>
-        <div class="row">
-            <div class="col-6">
-                <div class="img_container">
-                    <img src="./assets/others-img/about.svg" alt="Ronald boyd.">
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="bio">
-                    <h3>Dwayne Tucker</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                       suffered alteration in some form, by injected humour, or randomised words which don't look
-                       even slightly believable.</p>
-                       <p>The generated Lorem Ipsum is therefore always free from repetition, injected humour.</p>
-                </div>
-            </div>
-            <div class="signature">
-                <img src="./assets/others-img/signature.png" alt="Ronald boyd signature">
-            </div>
-        </div>
-    </section>
-    <!------------- Resume ---------------->
-    <section class="resume" id="resume">
-        <div class="row">
-            <div class="col-6">
-                <h2>Awards</h2>
-                <ul class="list">
-                    <li class="list_item">
-                        <div class="list_title">
-                            <div class="img_icon">
-                                <img src="./assets/award-img/trophy.svg" alt="">
-                            </div>
-                            <span class="item_title">
-                                CSS design awards
-                            </span>
-                        </div>
-                        <span class="item_description">
-                            Letraset sheets containing Lorem Ipsum passages.
-                        </span>
-                    </li>
-                    <li class="list_item">
-                        <div class="list_title">
-                            <div class="img_icon">
-                                <img src="./assets/award-img/trophy.svg" alt="">
-                            </div>
-                            <span class="item_title">
-                                Cool site of the day
-                            </span>
-                        </div>
-                        <span class="item_description">
-                            More recently with desktop publishing.
-                        </span>
-                    </li>
-                    <li class="list_item">
-                        <div class="list_title">
-                            <div class="img_icon">
-                                <img src="./assets/award-img/trophy.svg" alt="">
-                            </div>
-                            <span class="item_title">
-                                Best artist website
-                            </span>
-                        </div>
-                        <span class="item_description">
-                            The release of Letraset sheets containing Lorem Ipsum passages.
-                        </span>
-                    </li>
-                    <li class="list_item">
-                        <div class="list_title">
-                            <div class="img_icon">
-                                <img src="./assets/award-img/trophy.svg" alt="">
-                            </div>
-                            <span class="item_title">
-                                Interactive awards
-                            </span>
-                        </div>
-                        <span class="item_description">
-                            You need to be sure there isn't anything embarrassing hidden.
-                        </span>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-6">
-                <h2 class="section_title">Education & Experience</h2>
-                <ul class="list">
-                    <li class="list_item">
-                        <div class="list_title">
-                            <div class="img_icon">
-                                <img src="./assets/edu-img/heart.svg" alt="">
-                            </div>
-                            <span class="item_title">
-                                University of London
-                            </span>
-                        </div>
-                        <span class="item_description">
-                            The generated Lorem Ipsum is therefore.
-                        </span>
-                    </li>
-                    <li class="list_item">
-                        <div class="list_title">
-                            <div class="img_icon">
-                                <img src="./assets/edu-img/heart.svg" alt="">
-                            </div>
-                            <span class="item_title">
-                                Empire State University
-                            </span>
-                        </div>
-                        <span class="item_description">
-                            Various versions have evolved over the years, sometimes by accident.
-                        </span>
-                    </li>
-                    <li class="list_item">
-                        <div class="list_title">
-                            <div class="img_icon">
-                                <img src="./assets/edu-img/heart.svg" alt="">
-                            </div>
-                            <span class="item_title">
-                                Content writer - Designs Ltd
-                            </span>
-                        </div>
-                        <span class="item_description">
-                            It uses a dictionary of over 200 Latin words.
-                        </span>
-                    </li>
-                    <li class="list_item">
-                        <div class="list_title">
-                            <div class="img_icon">
-                                <img src="./assets/edu-img/heart.svg" alt="">
-                            </div>
-                            <span class="item_title">
-                                Senior Developer - InVision studio
-                            </span>
-                        </div>
-                        <span class="item_description">
-                            But also the leap into electronic typesetting, remaining essentially.
-                        </span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="skills">
-            <h2 class="section_title">Skills</h2>
-            <p>Illustrator,  Figma, Photoshop, Sketch,  Adobe XD,  HTML5, CSS3, Webflow, SEO,  
-               Microsoft Office, CMS, JavaScript, jQuery</p>
-        </div>
-    </section>
-    <!------------- Blog Section ---------->
-    <section class="blog" id="blog">
-        <h2>Latest blog.</h2>
-        <div class="blog_grid">
-            <div class="blog_grid_item">
-                <a href="#" class="blog_link">
-                    <div class="blog_item_img">
-                        <img src="./assets/blog-img/blog-01.jpg" alt="">
+                <div class="col-6">
+                    <div class="bio">
+                        <h3>Dwayne Tucker</h3>
+
+                        <p>There are many variations of passages of Lorem Ipsum available, but the <strong>majority have suffered alteration</strong> in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        
+                        <p>The generated Lorem Ipsum is therefore always free from repetition, injected humour.</p>
                     </div>
-                    <h3 class="blog_title">Award-winning marketing professional</h3>
-                    <span class="blog_date">September 10,2022</span>
-                </a>
-            </div>
-            <div class="blog_grid_item">
-                <a href="#" class="blog_link">
-                    <div class="blog_item_img">
-                        <img src="./assets/blog-img/blog-02.jpg" alt="">
-                    </div>
-                    <h3 class="blog_title">Technology leader with a track record</h3>
-                    <span class="blog_date">September 10,2022</span>
-                </a>
-            </div>
-            <div class="blog_grid_item">
-                <a href="#" class="blog_link">
-                    <div class="blog_item_img">
-                        <img src="./assets/blog-img/blog-03.jpg" alt="">
-                    </div>
-                    <h3 class="blog_title">Entry-level business analyst</h3>
-                    <span class="blog_date">September 10,2022</span>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-------------- Contact Section ------>
-    <section class="contact" id="contact">
-        <h2 class="section_title">Contact</h2>
-        <div class="row">
-            <div class="col-6">
-                <form action="method" class="form">
-                    <input 
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    class="input_box"/>
-                    <input type="email"
-                    name="email_address"
-                    placeholder="Email address" class="input_box"/>
-                    <textarea name="comment" placeholder="Comment here" class="input_box text_box"></textarea>
-                    <input type="submit" value="Submit" class="btn">
-                </form>
-            </div>
-            <div class="col-6">
-                <div class="container">
-                    <h3>Dwayne Tucker</h3>
-                    <div class="contact_box">
-                        <div class="contact_item">
-                            <div class="contact_icon">
-                                <img src="./assets/others-img/envelope.svg" alt="">
-                            </div>
-                            <a href="diamondholdingslimited@gmail.com">example@gmail.com</a>
-                        </div>
-                        <div class="contact_item">
-                            <div class="contact_icon">
-                                <img src="./assets/others-img/iphone.svg" alt="">
-                            </div>
-                            <a href="tel:+8 (235)-555-65-89">+2349012000562</a>
-                        </div>
-                        <div class="contact_item">
-                            <div class="contact_icon">
-                                <img src="./assets/others-img/pin.svg" alt="">
-                            </div>
-                           <address class="contact_text">1810 Stone Canyon Rd Longmont, Colorado(CO), 80503</address>
-                        </div>
+                    <div class="signature">
+                        <img src="./assets/others-img/signature.png" alt="Ronald boyd signature" />
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer>
-        <p>&copy;All rights reserved by <a href="#"> Flowsark.</a>Powered by <a href="www.webflow.com">Webflow.</a></p>
-        <div class="footer_nav">
-            <a href="#" class="footer_link">Style Guide</a>
-            <a href="#" class="footer_link">Licensing</a>
-            <a href="#" class="footer_link">Changelog</a>
-        </div>
-    </footer>
-</main>
+        </section>
+        <section class="resume" id="resume">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="section_title">Awards</h2>
+                    <ul class="list">
+                        <li class="list_item">
+                            <div class="list_title">
+                                <div class="icon_img">
+                                    <img src="./assets/award-img/trophy.svg" alt="" />
+                                </div>
+                                <span class="item_title">
+                                    CSS design awards
+                                </span>
+                            </div>
+                            
+                            <span class="item_description">Letraset sheets containing Lorem Ipsum passages.</span>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_title">
+                                <div class="icon_img">
+                                    <img src="./assets/award-img/trophy.svg" alt="" />
+                                </div>
+                                <span class="item_title">Cool site of the day
+                                </span>
+                            </div>
+                            <span class="item_description">Letraset sheets containing Lorem Ipsum passages.</span>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_title">
+                                <div class="icon_img">
+                                    <img src="./assets/award-img/trophy.svg" alt="" />
+                                </div>
+                            
+                                <span class="item_title">
+                                    
+                                    Best artist website
+                                </span>
+                            </div>
+                            <span class="item_description">Letraset sheets containing Lorem Ipsum passages.</span>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_title">
+                                <div class="icon_img">
+                                    <img src="./assets/award-img/trophy.svg" alt="" />
+                                </div>
+                                <span class="item_title">
+                                    
+                                    Interactive awards
+                                </span>
+                            </div>
+                            <span class="item_description">Letraset sheets containing Lorem Ipsum passages.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h2 class="section_title">Education & Experience</h2>
+                    <ul class="list">
+                        <li class="list_item">
+                            <div class="list_title">
+                                <div class="icon_img">
+                                    <img src="./assets/edu-img/heart.svg" alt="" />
+                                </div>
+                                <span class="item_title">
+                                
+                                    University of London
+                                </span>
+                            </div>
+                            <span class="item_description">Letraset sheets containing Lorem Ipsum passages.</span>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_title">
+                                <div class="icon_img">
+                                    <img src="./assets/edu-img/heart.svg" alt="" />
+                                </div>
+                                <span class="item_title">
+                                    
+                                    Empire State University
+                                </span>
+                            </div>
+                            <span class="item_description">Letraset sheets containing Lorem Ipsum passages.</span>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_title">
+                                <div class="icon_img">
+                                    <img src="./assets/edu-img/heart.svg" alt="" />
+                                </div>
+                                <span class="item_title">
+                                    
+                                    Content Writer - Designs Ltd
+                                </span>
+                            </div>
+                            <span class="item_description">Letraset sheets containing Lorem Ipsum passages.</span>
+                        </li>
+                        <li class="list_item">
+                            <div class="list_title">
+                                <div class="icon_img">
+                                    <img src="./assets/edu-img/heart.svg" alt="" />
+                                </div>
+                                <span class="item_title">
+                                    
+                                    Senior Developer - Invision Studio
+                                </span>
+                            </div>
+                            <span class="item_description">Letraset sheets containing Lorem Ipsum passages.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skills">
+                <h2 class="section_title">Skills</h2>
+                <p>
+                    Illustrator,  Figma, Photoshop, Sketch,  Adobe XD,  HTML5, CSS3, Webflow, SEO, Microsoft Office, CMS, JavaScript, jQuery
+                </p>
+            </div>
+        </section>
+        <section class="blog" id="blog">
+            <h2 class="section_title">Latest blog.</h2>
+            <div class="blog_grid">
+                <div class="blog_grid_item">
+                    <div class="blog_item">
+                        <a href="#" class="blog_link">
+                            <div class="blog_item_img">
+                                <img src="./assets/blog-img/blog-01.jpg" alt="" />
+                            </div>
+                            <h3 class="blog_title">Award-winning marketing professional</h3>
+                            <span class="blog_date">Septemeber 10, 2022</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="blog_grid_item">
+                    <div class="blog_item">
+                        <a href="#" class="blog_link">
+                            <div class="blog_item_img">
+                                <img src="./assets/blog-img/blog-02.jpg" alt="" />
+                            </div>
+                            <h3 class="blog_title">Award-winning marketing professional</h3>
+                            <span class="blog_date">Septemeber 10, 2022</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="blog_grid_item">
+                    <div class="blog_item">
+                        <a href="#" class="blog_link">
+                            <div class="blog_item_img">
+                                <img src="./assets/blog-img/blog-03.jpg" alt="" />
+                            </div>
+                            <h3 class="blog_title">Award-winning marketing professional</h3>
+                            <span class="blog_date">Septemeber 10, 2022</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="section_title">Contact.</h2>
+            <div class="row">
+                <div class="col-6">
+                    <form action="" method="" class="form">
+                        <input 
+                        type="text" 
+                        name="name" 
+                        placeholder="Name"
+                        class="input_box" 
+                        required/>
+                        <input 
+                        type="email" 
+                        name="email_address" 
+                        placeholder="Email address"
+                        class="input_box"
+                        required />
+
+                        <input 
+                        type="tel" 
+                        name="phone_number" 
+                        placeholder="Phone number"
+                        class="input_box"
+                        required />
+                        <textarea name="comment" placeholder="Comment here" class="input_box text_box" rows="8"></textarea>
+                        <input type="submit" value="Submit" class="btn" />
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div class="container">
+                        <h3>Dwayne Tucker</h3>
+                        <div class="contact_box">
+                            <div class="contact_item">
+                                <div class="contact_icon">
+                                    <img src="./assets/others-img/envelope.svg" alt="" />
+                                </div>
+                                <a class="contact_link" href="mailto:example@gmail.com">example@gmail.com</a>
+                            </div>
+                            <div class="contact_item">
+                                <div class="contact_icon">
+                                    <img src="./assets/others-img/iphone.svg" alt="" />
+                                </div>
+                                <a class="contact_link" href="tel:555-031-4578">555-031-4578</a>
+                            </div>
+                            <div class="contact_item">
+                                <div class="contact_icon">
+                                    <img src="./assets/others-img/pin.svg" alt="" />
+                                </div>
+                                <address class="contact_text">1810 Stone Canyon Rd Longmont, Colorado(CO), 80503</address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        <footer>
+            <p> &copy; All rights reserved by <a href="#" class="footer_link">Flowsark</a>. Powered by <a href="">Webflow</a>.</p>
+            <div class="footer_nav">
+                <a href="#" class="footer_link">Style Guide</a>
+                <a href="#" class="footer_link">Licensing</a>
+                <a href="#" class="footer_link">Changelog</a>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
